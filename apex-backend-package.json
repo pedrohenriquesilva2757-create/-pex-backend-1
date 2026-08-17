@@ -1,0 +1,22 @@
+{
+  "name": "apex-backend",
+  "version": "1.0.0",
+  "description": "Backend do ÁPEX — arquivo único, sem pastas",
+  "main": "index.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "pg": "^8.11.5",
+    "bcryptjs": "^2.4.3",
+    "jsonwebtoken": "^9.0.2",
+    "dotenv": "^16.4.5",
+    "cors": "^2.8.5",
+    "googleapis": "^140.0.0",
+    "helmet": "^7.1.0",
+    "express-rate-limit": "^7.2.0",
+    "zod": "^3.23.8"
+  }
+}
