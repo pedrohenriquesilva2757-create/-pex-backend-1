@@ -739,3 +739,4 @@ aplicarSchema().finally(() => {
     setInterval(() => { processarFilaSync().catch((err) => console.error("Erro no worker de sync:", err)); }, intervalo);
   });
 });
+// deploy Apex
